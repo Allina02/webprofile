@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MS Allina Fatima</h1>
+        <nav>
+            <a href="#about">About Me</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate and dedicated individual with a strong background in Information Engineering Technology. I am currently pursuing my Undergraduate degree in Information Engineering Technology and have experience in various fields such as circuit design, programming, and web development. I am always eager to learn new skills and take on new challenges.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Circuit Design</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Pink Noise Generator</a></li>
+            <li><a href="#">12V Power Supply</a></li>
+            <li><a href="#">Personal Website</a></li>
+            <li><a href="#">Library Management System</a></li>
+        </ul>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="#">resume.pdf</a></p>
+        <embed src="resume.pdf" width="100%" height="500px" alt="Resume">
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="70135143@student.uol.edu.pk">70135143@student.uol.edu.pk</a></p>
+        <p>Phone: +92-324-4175225</p>
+        <p>Address: Department of Technology, University of Lahore, Lahore</p>
+    </section>
+    <script src="responsive.js"></script>
+</body>
+</html>
